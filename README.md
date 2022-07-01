@@ -84,9 +84,12 @@ Run the following command to run startup migrations.
 adonis migration:run
 ```
 
-### 4. Run `npm run dev`
+### 4. Run Aplication
 
 Runs the app in the development mode.\
+```
+$ npm install
+```
 Open [http://localhost:3333](http://localhost:3333) to view it in your browser.
 
 ## Postman Documentation
