@@ -1,8 +1,8 @@
-'use strict'
+"use strict";
 /** @typedef {import('@adonisjs/framework/src/Request')} Request */
 /** @typedef {import('@adonisjs/framework/src/Response')} Response */
 /** @typedef {import('@adonisjs/framework/src/View')} View */
-const responseHelper= require('../helpers/response')
+const responseHelper = require("../helpers/response");
 
 class Authenticated {
   /**
@@ -10,11 +10,11 @@ class Authenticated {
    * @param {Request} ctx.request
    * @param {Function} next
    */
-  async handle ({ request,auth,response }, next) {
+  async handle({ request, auth, response }, next) {
     // call next to advance the request
     try {
-      await auth.check()
-      await next()
+      await auth.check();
+      await next();
     } catch (error) {
       return responseHelper(response, {
         status: 401,
@@ -25,4 +25,4 @@ class Authenticated {
   }
 }
 
-module.exports = Authenticated
+module.exports = Authenticated;
