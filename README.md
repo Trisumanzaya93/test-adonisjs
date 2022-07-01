@@ -6,9 +6,6 @@
 - [API Endpoint](#api-endpoint)
 - [Run Application](#run-application)
 - [Postman Documentation](#postman-documentation)
-- [Deployment](#deployment)
-- [Related Projects](#related-projects)
-- [Contributors](#contributors)
 
 ## API Endpoint
 
