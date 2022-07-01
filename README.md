@@ -88,7 +88,7 @@ adonis migration:run
 
 Runs the app in the development mode.\
 ```
-$ npm install
+$ npm run dev
 ```
 Open [http://localhost:3333](http://localhost:3333) to view it in your browser.
 
